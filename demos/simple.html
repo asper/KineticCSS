@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+<title>Simple demo</title>
+
+</head>
+<body>
+
+<div id="container"></div>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/kineticjs/4.7.2/kinetic.min.js"></script>
+<script src="../src/KineticCSS.js"></script>
+
+<script>
+
+var stage = new Kinetic.Stage({
+		container: 'container',
+		width: 800,
+		height: 600
+	}),
+	layer = new Kinetic.Layer(),
+	square = new Kinetic.Rect({
+		id: 'square'
+	}),
+	square2 = new Kinetic.Rect({
+		id: 'square2',
+		name: 'red'
+	});
+layer.add(square);
+layer.add(square2);
+stage.add(layer);
+layer.draw();
+new KineticCSS(layer, 'simple.css');
+</script>
+
+</body>
+</html>

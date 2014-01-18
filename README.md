@@ -8,7 +8,7 @@ Suported CSS properties
 
 ### width
 
-	```css
+	```CSS
 	#node {
 		width: 100px;	// node.setWidth(100);
 		width: 100em;	// node.setWidth(100);
@@ -19,7 +19,7 @@ Suported CSS properties
 
 ### height
 
-	```css
+	```CSS
 	#node {
 		height: 100px;	// node.setHeight(100);
 		height: 100em;	// node.setHeight(100);
@@ -30,7 +30,7 @@ Suported CSS properties
 
 ### top
 
-	```css
+	```CSS
 	#node {
 		top: 100px;		// node.setY(100);
 		top: 100em;		// node.setY(100);
@@ -41,7 +41,7 @@ Suported CSS properties
 
 ### left
 
-	```css
+	```CSS
 	#node {
 		left: 100px;	// node.setX(100);
 		left: 100em;	// node.setX(100);
@@ -52,7 +52,7 @@ Suported CSS properties
 
 ### opacity
 
-	```css
+	```CSS
 	#node {
 		opacity: 0.5;	// node.setOpacity(0.5);
 	}
@@ -60,7 +60,7 @@ Suported CSS properties
 
 ### display
 
-	```css
+	```CSS
 	#node {
 		display: block;			// node.setVisible(true);
 		display: inline;		// node.setVisible(true);
@@ -74,7 +74,7 @@ Suported CSS properties
 
 ### backgroundImage
 
-	```css
+	```CSS
 	#node {
 		background-image: url(image.png);	// node.setFillPatternImage(image.png);
 	}
@@ -82,7 +82,7 @@ Suported CSS properties
 
 ### backgroundRepeat
 
-	```css
+	```CSS
 	#node {
 		background-repeat: repeat;		// node.setFillPatternRepeat('repeat');
 		background-repeat: no-repeat;	// node.setFillPatternRepeat('no-repeat');

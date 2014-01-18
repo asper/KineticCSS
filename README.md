@@ -8,14 +8,14 @@ Suported CSS properties
 
 ### width
 
-	```CSS
-	#node {
-		width: 100px;	// node.setWidth(100);
-		width: 100em;	// node.setWidth(100);
-		width: 100pt;	// node.setWidth(100);
-		width: 100%;	// node.setWidth(100);
-	}
-	```
+```CSS
+#node {
+	width: 100px;	// node.setWidth(100);
+	width: 100em;	// node.setWidth(100);
+	width: 100pt;	// node.setWidth(100);
+	width: 100%;	// node.setWidth(100);
+}
+```
 
 ### height
 
